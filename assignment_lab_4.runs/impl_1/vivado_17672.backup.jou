@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Mar 14 22:56:04 2021
+# Process ID: 17672
+# Current directory: C:/Vivado/assignment_lab_4/assignment_lab_4.runs/impl_1
+# Command line: vivado.exe -log task_a.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source task_a.tcl -notrace
+# Log file: C:/Vivado/assignment_lab_4/assignment_lab_4.runs/impl_1/task_a.vdi
+# Journal file: C:/Vivado/assignment_lab_4/assignment_lab_4.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source task_a.tcl -notrace

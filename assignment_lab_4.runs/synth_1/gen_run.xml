@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1615741241">
+  <File Type="PA-TCL" Name="task_a.tcl"/>
+  <File Type="REPORTS-TCL" Name="task_a_reports.tcl"/>
+  <File Type="RDS-RDS" Name="task_a.vds"/>
+  <File Type="RDS-UTIL" Name="task_a_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="task_a_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="task_a.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/clock_1p49Hz.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../assignment_lab_4.srcs/sources_1/new/clock_1p49Hz.v"/>
+        <Attr Name="ImportTime" Val="1615711636"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clock_25MHz.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../assignment_lab_4.srcs/sources_1/new/clock_25MHz.v"/>
+        <Attr Name="ImportTime" Val="1615166809"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clock_2p98Hz.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../assignment_lab_4.srcs/sources_1/new/clock_2p98Hz.v"/>
+        <Attr Name="ImportTime" Val="1615163332"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clock_381Hz.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../assignment_lab_4.srcs/sources_1/new/clock_381Hz.v"/>
+        <Attr Name="ImportTime" Val="1615170196"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clock_fast.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../assignment_lab_4.srcs/sources_1/new/clock_fast.v"/>
+        <Attr Name="ImportTime" Val="1615164754"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clock_p33Hz.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../assignment_lab_4.srcs/sources_1/new/clock_p33Hz.v"/>
+        <Attr Name="ImportTime" Val="1615711544"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clock_p75Hz.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../assignment_lab_4.srcs/sources_1/new/clock_p75Hz.v"/>
+        <Attr Name="ImportTime" Val="1615170168"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/d_ff.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../assignment_lab_4.srcs/sources_1/new/d_ff.v"/>
+        <Attr Name="ImportTime" Val="1615164422"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/debounce.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../assignment_lab_4.srcs/sources_1/new/debounce.v"/>
+        <Attr Name="ImportTime" Val="1615737242"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/task_a.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../assignment_lab_4.srcs/sources_1/new/task_a.v"/>
+        <Attr Name="ImportTime" Val="1615741237"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clock_12Hz.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../assignment_lab_4.srcs/sources_1/new/clock_12Hz.v"/>
+        <Attr Name="ImportTime" Val="1615163932"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="task_a"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/basys_3_constraint.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../assignment_lab_4.srcs/constrs_1/new/basys_3_constraint.xdc"/>
+        <Attr Name="ImportTime" Val="1615725423"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/basys_3_constraint.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
